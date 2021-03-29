@@ -7,6 +7,10 @@ package com.example.models;
 
 public enum Erole {
 
-    ROLE_USER, ROLE_MODERATOR, ROLE_ADMIN
+    ROLE_USER, 
+    ROLE_MODERATOR, 
+    ROLE_ADMIN ,
+    ROLE_STUDENT , 
+    ROLE_TEACHER
 
 }

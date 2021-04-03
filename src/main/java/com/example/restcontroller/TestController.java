@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @author tnhncn
  */
 
-
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/api/test")
@@ -40,6 +39,4 @@ public class TestController {
         return "Admin Board.";
     }
     
-    
-
 }

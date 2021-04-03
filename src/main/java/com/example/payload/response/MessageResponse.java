@@ -5,7 +5,6 @@ package com.example.payload.response;
  * @author tnhncn
  */
 
-
 public class MessageResponse {
 
     private String message;

@@ -74,6 +74,7 @@ public class LoginController {
                                                     roles));
     }
 
+
     
     	@PostMapping("/signup")
 	public ResponseEntity<?> registerUser(@Valid @RequestBody SignupRequest signUpRequest) {
